@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <div class="nav">
+      <button id="again">Again!</button>
+      <h5 id="between">(Bewtween 1 and 20)</h5>
+    </div>
+    <div class="title">
+      <h1>Guess My Number!</h1>
+      <div class="white">
+        <span>?</span>
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="left">
+        <input id="input" type="number" max="20" min="0" />
+        <button id="check">Check!</button>
+      </div>
+      <div class="right">
+        <h3 id="lowhigh">&#128185; Start Guess!</h3>
+        <h3 id="score">&#128176; Score : 20</h3>
+        <h3 id="highscore" value="">&#128640; Highscore : 0</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

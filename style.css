@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#again {
+  padding: 1rem;
+  margin: 1.5rem;
+}
+#between {
+  padding: 1rem;
+  margin: 1.5rem;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 7rem;
+  border-bottom: white solid 0.5rem;
+}
+span {
+  color: black;
+  font-size: 4rem;
+}
+.white {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 8rem;
+  width: 8rem;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-section {
+  margin-top: 10rem;
+  display: flex;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 50%;
+  text-align: center;
+  padding: 2rem;
+}
+h3 {
+  padding: 2rem;
+  text-align: left;
+  position: relative;
+  left: 80%;
+  transform: translate(-50%, 0);
+  font-size: 1.5rem;
+}
+#input {
+  padding: 2rem;
+  width: 12rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  color: white;
+  background-color: black;
+  border: white solid 0.5rem;
+}
+#check {
+  padding: 1.5rem;
+}
